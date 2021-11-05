@@ -5,8 +5,8 @@
 # 答えはどのような順序でも返せます。
 
 def two_sum(nums, target)
-    for i in 0...nums.length
-      for j in (i + 1)...nums.length
+    for i in 0...nums.length do
+      for j in (i + 1)...nums.length do
         if nums[i] + nums[j] == target
           return i,j
         end

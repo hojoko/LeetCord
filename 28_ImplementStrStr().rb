@@ -36,3 +36,6 @@ end
 haystack = "hello"
 needle = "lo"
 puts str_str(haystack, needle)
+
+human = ["うに", "うに", "くり","うに"]
+puts human.index('くり') + 1

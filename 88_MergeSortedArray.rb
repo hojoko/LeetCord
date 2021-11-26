@@ -10,8 +10,6 @@
 # @param {Integer} n
 # @return {Void} Do not return anything, modify nums1 in-place instead.
 def merge(nums1, m, nums2, n)
-  # nums1.pop(m) if nums1.length != m
-  # nums2.pop(n) if nums2.length != n
 
   nums2.length.times do |i|
     nums1.push(nums2[i])
